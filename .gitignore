@@ -1,0 +1,18 @@
+# os
+.DS_Store
+
+# editors
+*.sublime-project
+*.sublime-workspace
+/.idea
+
+# public folder
+public
+!public/.htaccess
+!public/index.php
+/site
+
+# custom environments
+environments/custom-*
+/sessions
+/cache
