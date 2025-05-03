@@ -22,6 +22,11 @@ Example submodule installation
 git submodule add https://github.com/getkirby/kql.git plugins/kql/site/plugins/kql
 ```
 
+## Panel login
+
+Email: admin@getkirby.com
+Password: 12345678
+
 ## How to switch plugin test setups
 
 1. Go to the Panel
