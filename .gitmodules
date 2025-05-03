@@ -1,6 +1,6 @@
 [submodule "plugins/git-content/site/plugins/git-content"]
 	path = plugins/git-content/site/plugins/git-content
-	url = git@github.com:thathoff/kirby-git-content.git
+	url = git@github.com:bastianallgeier/kirby-git-content.git
 [submodule "kirby"]
 	path = kirby
 	url = git@github.com:getkirby/kirby.git
