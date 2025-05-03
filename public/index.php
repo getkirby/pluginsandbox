@@ -68,6 +68,10 @@ $kirby = new Kirby([
 							'component' => 'k-form-dialog',
 							'props' => [
 								'fields' => [
+									'info' => [
+										'type' => 'info',
+										'text' => 'You might need to reload the panel after switching plugins. There’s an issue with cache invalidation and new plugin components are not loaded properly without a forced reload'
+									],
 									'plugin' => [
 										'type'     => 'select',
 										'label'    => 'Plugin',

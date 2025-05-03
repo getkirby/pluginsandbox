@@ -10,3 +10,6 @@
 [submodule "plugins/locator/site/plugins/locator"]
 	path = plugins/locator/site/plugins/locator
 	url = https://github.com/sylvainjule/kirby-locator.git
+[submodule "plugins/seo/site/plugins/seo"]
+	path = plugins/seo/site/plugins/seo
+	url = https://github.com/tobimori/kirby-seo.git
