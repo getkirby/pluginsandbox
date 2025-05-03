@@ -6,7 +6,7 @@ This is our test environment for third-party plugins. We isolate every plugin in
 
 After cloning the repo, the submodules need to be initialized. 
 
-````
+```
 git submodule update --init --recursive
 ```
 
@@ -17,7 +17,8 @@ git submodule update --init --recursive
 3. Install the plugin as submodule if possible
 
 Example submodule installation
-````
+
+```
 git submodule add https://github.com/getkirby/kql.git plugins/kql/site/plugins/kql
 ```
 
