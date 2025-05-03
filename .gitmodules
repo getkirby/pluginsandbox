@@ -19,3 +19,6 @@
 [submodule "plugins/navigation/site/plugins/navigation"]
 	path = plugins/navigation/site/plugins/navigation
 	url = https://github.com/chrisbeluga/kirby-navigation.git
+[submodule "plugins/minimap/site/plugins/minimap"]
+	path = plugins/minimap/site/plugins/minimap
+	url = https://github.com/johannschopplich/kirby-minimap.git

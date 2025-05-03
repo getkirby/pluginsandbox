@@ -1,0 +1,35 @@
+title: Site
+
+columns:
+  - width: 2/3
+    fields:
+      subheading:
+        type: text
+      cover:
+        type: files
+        max: 1
+        uploads:
+          template: blog-article-image
+      text:
+        type: blocks
+        uploads:
+          template: blog-article-image
+
+  - width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          date:
+            type: date
+            time: false
+            display: "DD.MM.YYYY"
+            default: now
+            required: true
+          author:
+            type: users
+          tags:
+            type: tags
+      images:
+        type: files
+        template: blog-article-image

@@ -1,4 +1,4 @@
-Title: Locator
+Title: Locator Plugin
 
 ----
 
