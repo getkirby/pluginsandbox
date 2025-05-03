@@ -1,0 +1,9 @@
+title: Page
+
+sections:
+  info:
+    text: "Test the language selector for a (link: /panel/site text: site), **page**, (link: /panel/pages/test/files/image.jpg text: file) and (link: /panel/account text: user)"
+  fields:
+    fields:
+      foo:
+        type: text

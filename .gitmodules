@@ -22,3 +22,6 @@
 [submodule "plugins/minimap/site/plugins/minimap"]
 	path = plugins/minimap/site/plugins/minimap
 	url = https://github.com/johannschopplich/kirby-minimap.git
+[submodule "plugins/language-selector/site/plugins/language-selector"]
+	path = plugins/language-selector/site/plugins/language-selector
+	url = https://github.com/junohamburg/kirby-language-selector.git
