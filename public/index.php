@@ -4,7 +4,13 @@ $root = dirname(__DIR__);
 
 require $root . '/kirby/bootstrap.php';
 
-$plugin     = 'locator';
+session_start();
+
+if ($changed = ($_GET['plugin'] ?? null)) {
+	$_SESSION['plugin'] = $changed;
+}
+
+$plugin     = $_SESSION['plugin'] ?? 'git-content';
 $pluginRoot = $root . '/plugins/' . $plugin;
 
 $pluginTemplateRoot = $pluginRoot . '/site/templates';
@@ -26,7 +32,7 @@ $kirby = new Kirby([
 			]
 		],
 		'panel' => [
-			'dev' => true
+			'dev' => true, 
 		]
 	],
 	'roots' => [
