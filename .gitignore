@@ -6,13 +6,9 @@
 *.sublime-workspace
 /.idea
 
-# public folder
-public
-!public/.htaccess
-!public/index.php
-/site
+# public 
+/public/media
 
 # custom environments
-environments/custom-*
 /sessions
 /cache

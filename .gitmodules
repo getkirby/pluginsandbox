@@ -4,3 +4,6 @@
 [submodule "kirby"]
 	path = kirby
 	url = git@github.com:getkirby/kirby.git
+[submodule "plugins/retour/site/plugins/retour"]
+	path = plugins/retour/site/plugins/retour
+	url = https://github.com/distantnative/retour-for-kirby.git
