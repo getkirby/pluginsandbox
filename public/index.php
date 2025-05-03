@@ -6,10 +6,6 @@ require $root . '/kirby/bootstrap.php';
 
 session_start();
 
-if ($changed = ($_GET['plugin'] ?? null)) {
-	$_SESSION['plugin'] = $changed;
-}
-
 $plugin     = $_SESSION['plugin'] ?? 'git-content';
 $pluginRoot = $root . '/plugins/' . $plugin;
 
@@ -44,6 +40,62 @@ $kirby = new Kirby([
 		'sessions'  => $root . '/sessions',
 		'site'      => $pluginRoot . '/site',
 		'templates' => is_dir($pluginTemplateRoot) ? $pluginTemplateRoot : $root . '/templates',
+	], 
+	'routes' => [
+		[
+			'pattern' => 'plugin/(:any)',
+			'action' => function ($plugin) {
+				$_SESSION['plugin'] = $plugin;
+				return go('/panel/site/');
+			}
+		]
+	],
+	'areas' => [
+		'plugins' => [
+			'label' => 'Plugins',
+			'icon' => 'lab',
+			'menu' => [
+				'dialog' => 'plugins'
+			],
+			'dialogs' => [
+				[
+					'pattern' => 'plugins', 
+					'load'    => function () use ($plugin, $root)	{
+
+						$plugins = Dir::dirs($root . '/plugins');
+
+						return [
+							'component' => 'k-form-dialog',
+							'props' => [
+								'fields' => [
+									'plugin' => [
+										'type'     => 'select',
+										'label'    => 'Plugin',
+										'required' => true,
+										'options'  => A::map($plugins, function ($plugin) {
+											return [
+												'value' => $plugin, 
+												'text'  => $plugin
+											];
+										})
+									]
+								],
+								'submitButton' => 'Change',
+								'value' => [
+									'plugin' => $plugin
+								]
+							]
+						];
+					},
+					'submit' => function () {
+						return [
+							'redirect' => url('/plugin/' . get('plugin'))
+						];
+					}	
+				],
+			]
+
+		]
 	]
 ]);
 
