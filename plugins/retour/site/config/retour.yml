@@ -1,0 +1,9 @@
+redirects:
+  - 
+    from: redirect-test
+    to: https://getkirby.com
+    status: 303
+    priority: false
+    comment: ""
+    creator: admin@getkirby.com
+    modifier: admin@getkirby.com
