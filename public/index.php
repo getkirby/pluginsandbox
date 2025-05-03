@@ -4,7 +4,7 @@ $root = dirname(__DIR__);
 
 require $root . '/kirby/bootstrap.php';
 
-$plugin     = 'retour';
+$plugin     = 'locator';
 $pluginRoot = $root . '/plugins/' . $plugin;
 
 $pluginTemplateRoot = $pluginRoot . '/site/templates';

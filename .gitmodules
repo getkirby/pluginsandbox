@@ -7,3 +7,6 @@
 [submodule "plugins/retour/site/plugins/retour"]
 	path = plugins/retour/site/plugins/retour
 	url = https://github.com/distantnative/retour-for-kirby.git
+[submodule "plugins/locator/site/plugins/locator"]
+	path = plugins/locator/site/plugins/locator
+	url = https://github.com/sylvainjule/kirby-locator.git
