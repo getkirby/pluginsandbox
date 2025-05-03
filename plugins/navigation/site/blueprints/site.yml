@@ -1,0 +1,10 @@
+title: Site
+
+fields:
+  navigation:
+    label: Navigation
+    type: navigation
+    levels: 10
+    help: Description of menu or where it is used
+    width: 1/2
+    multilang: false

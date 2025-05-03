@@ -16,3 +16,6 @@
 [submodule "plugins/modules/site/plugins/modules"]
 	path = plugins/modules/site/plugins/modules
 	url = https://github.com/medienbaecker/kirby-modules.git
+[submodule "plugins/navigation/site/plugins/navigation"]
+	path = plugins/navigation/site/plugins/navigation
+	url = https://github.com/chrisbeluga/kirby-navigation.git

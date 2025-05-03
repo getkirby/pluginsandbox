@@ -1,0 +1,39 @@
+Title: Navigation Plugin
+
+----
+
+Navigation:
+
+- 
+  type: page
+  id: home
+  uuid_uri: page://qauxc9kzzipunkus
+  target: ""
+  uuid: 5krx2chiakt
+  children: [ ]
+  default_link_text: ""
+  default_page_url: http://pluginsandbox.test
+  default_page_title: Home
+  default_link_title: ""
+- 
+  type: page
+  id: home
+  uuid_uri: page://qauxc9kzzipunkus
+  target: ""
+  uuid: a6poam5satk
+  children: [ ]
+  default_link_text: ""
+  default_page_url: http://pluginsandbox.test
+  default_page_title: Home
+  default_link_title: ""
+- 
+  type: page
+  id: home
+  uuid_uri: page://qauxc9kzzipunkus
+  target: ""
+  uuid: e0xwrqyw1f6
+  children: [ ]
+  default_link_text: ""
+  default_page_url: http://pluginsandbox.test
+  default_page_title: Home
+  default_link_title: ""
