@@ -13,3 +13,6 @@
 [submodule "plugins/seo/site/plugins/seo"]
 	path = plugins/seo/site/plugins/seo
 	url = https://github.com/tobimori/kirby-seo.git
+[submodule "plugins/modules/site/plugins/modules"]
+	path = plugins/modules/site/plugins/modules
+	url = https://github.com/medienbaecker/kirby-modules.git
