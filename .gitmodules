@@ -25,3 +25,6 @@
 [submodule "plugins/language-selector/site/plugins/language-selector"]
 	path = plugins/language-selector/site/plugins/language-selector
 	url = https://github.com/junohamburg/kirby-language-selector.git
+[submodule "plugins/komments/site/plugins/komments"]
+	path = plugins/komments/site/plugins/komments
+	url = https://github.com/mauricerenck/komments.git
