@@ -1,0 +1,7 @@
+title: Default
+
+sections:
+  arborescence:
+    label: Menu
+    type: arborescence
+

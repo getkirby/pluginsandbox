@@ -4,5 +4,39 @@ Title: Embed Plugin
 
 Embed:
 
-- >
-  https://www.youtube.com/watch?v=xwh2PQsprwU
+input: >
+  https://www.youtube.com/watch?v=us4hwvMJbzs
+media:
+  title: How to install Kirby in minutes
+  description: 'Ready to start your first Kirby site? Let us show you how to get started in minutes, from setting up your local environment to getting your first page up.#La...'
+  url: >
+    https://www.youtube.com/watch?v=us4hwvMJbzs
+  tags:
+    - kirby
+    - cms
+    - tutorial
+    - screencast
+    - content management
+    - how to
+    - getkirby
+    - website
+    - html
+    - php
+  image: >
+    https://i.ytimg.com/vi/us4hwvMJbzs/hqdefault.jpg
+  feeds: [ ]
+  code: '<iframe width="200" height="113" src="https://www.youtube.com/embed/us4hwvMJbzs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="How to install Kirby in minutes"></iframe>'
+  width: 200
+  height: 113
+  aspectRatio: 56.5
+  authorName: Kirby CMS
+  authorUrl: https://www.youtube.com/@KirbyCasts
+  providerIcon: >
+    https://www.youtube.com/s/desktop/3747f4fc/img/logos/favicon_144x144.png
+  providerName: YouTube
+  providerUrl: https://www.youtube.com/
+  publishedTime:
+    date: 2025-04-15 01:37:13.000000
+    timezone_type: 1
+    timezone: -07:00
+  license: null
