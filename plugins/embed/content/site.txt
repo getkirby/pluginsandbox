@@ -1,0 +1,8 @@
+Title: Embed Plugin
+
+----
+
+Embed:
+
+- >
+  https://www.youtube.com/watch?v=xwh2PQsprwU

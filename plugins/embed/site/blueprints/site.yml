@@ -1,0 +1,6 @@
+title: Site
+
+fields:
+  embed:
+    label: Embed
+    type: embed

@@ -28,3 +28,6 @@
 [submodule "plugins/komments/site/plugins/komments"]
 	path = plugins/komments/site/plugins/komments
 	url = https://github.com/mauricerenck/komments.git
+[submodule "plugins/embed/site/plugins/embed"]
+	path = plugins/embed/site/plugins/embed
+	url = https://github.com/sylvainjule/kirby-embed.git
