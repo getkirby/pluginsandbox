@@ -1,0 +1,13 @@
+{
+	"name": "kirbyuse-playground",
+	"type": "module",
+	"main": "index.js",
+	"dependencies": {
+		"kirbyup": "^3.3.0",
+		"kirbyuse": "file:../kirbyuse"
+	},
+	"scripts": {
+		"dev": "kirbyup src/index.js --watch",
+		"build": "kirbyup src/index.js"
+	}
+}

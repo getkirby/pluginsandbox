@@ -34,3 +34,6 @@
 [submodule "plugins/arborescence/site/plugins/arborescence"]
 	path = plugins/arborescence/site/plugins/arborescence
 	url = https://github.com/Daandelange/kirby-arborescence.git
+[submodule "plugins/kirbyuse/site/plugins/kirbyuse"]
+	path = plugins/kirbyuse/site/plugins/kirbyuse
+	url = git@github.com:johannschopplich/kirbyuse.git
