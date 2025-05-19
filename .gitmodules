@@ -46,3 +46,6 @@
 [submodule "plugins/adminbar/site/plugins/adminbar"]
 	path = plugins/adminbar/site/plugins/adminbar
 	url = git@github.com:Pechente/kirby-admin-bar.git
+[submodule "plugins/plausible/site/plugins/plausible"]
+	path = plugins/plausible/site/plugins/plausible
+	url = git@github.com:floriankarsten/kirby-plausible.git
