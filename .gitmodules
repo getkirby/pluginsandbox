@@ -37,3 +37,6 @@
 [submodule "plugins/kirbyuse/site/plugins/kirbyuse"]
 	path = plugins/kirbyuse/site/plugins/kirbyuse
 	url = git@github.com:johannschopplich/kirbyuse.git
+[submodule "plugins/markdown-field/site/plugins/markdown-field"]
+	path = plugins/markdown-field/site/plugins/markdown-field
+	url = git@github.com:fabianmichael/kirby-markdown-field.git
