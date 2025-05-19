@@ -43,3 +43,6 @@
 [submodule "plugins/table-field/site/plugins/table-field"]
 	path = plugins/table-field/site/plugins/table-field
 	url = git@github.com:bogdancondorachi/kirby-table-field.git
+[submodule "plugins/adminbar/site/plugins/adminbar"]
+	path = plugins/adminbar/site/plugins/adminbar
+	url = git@github.com:Pechente/kirby-admin-bar.git
