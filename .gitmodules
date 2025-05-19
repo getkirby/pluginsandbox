@@ -40,3 +40,6 @@
 [submodule "plugins/markdown-field/site/plugins/markdown-field"]
 	path = plugins/markdown-field/site/plugins/markdown-field
 	url = git@github.com:fabianmichael/kirby-markdown-field.git
+[submodule "plugins/table-field/site/plugins/table-field"]
+	path = plugins/table-field/site/plugins/table-field
+	url = git@github.com:bogdancondorachi/kirby-table-field.git
