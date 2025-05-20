@@ -49,3 +49,6 @@
 [submodule "plugins/plausible/site/plugins/plausible"]
 	path = plugins/plausible/site/plugins/plausible
 	url = git@github.com:floriankarsten/kirby-plausible.git
+[submodule "plugins/remix-icons/site/plugins/remix-icons"]
+	path = plugins/remix-icons/site/plugins/remix-icons
+	url = https://github.com/veryrobert/kirby-remix-icons.git

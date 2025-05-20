@@ -1,0 +1,7 @@
+title: Remix Icons
+
+fields:
+  fireLine:
+    label: Fire Line Icon
+    icon: fire-line
+    type: text
