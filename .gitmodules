@@ -55,3 +55,6 @@
 [submodule "plugins/visual-block-selector/site/plugins/visual-block-selector"]
 	path = plugins/visual-block-selector/site/plugins/visual-block-selector
 	url = git@github.com:junohamburg/kirby-visual-block-selector.git
+[submodule "plugins/csv-field/site/plugins/csv-field"]
+	path = plugins/csv-field/site/plugins/csv-field
+	url = git@github.com:distantnative/kirby-csv-field.git

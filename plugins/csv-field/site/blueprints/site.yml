@@ -1,0 +1,6 @@
+title: Site
+
+fields:
+  csv:
+    type: csv
+    delimiter: ";"
