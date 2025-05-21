@@ -67,3 +67,6 @@
 [submodule "plugins/locked-pages/site/plugins/locked-pages"]
 	path = plugins/locked-pages/site/plugins/locked-pages
 	url = git@github.com:johannschopplich/kirby-locked-pages.git
+[submodule "plugins/imagex/site/plugins/imagex"]
+	path = plugins/imagex/site/plugins/imagex
+	url = git@github.com:timnarr/kirby-imagex.git

@@ -1,0 +1,9 @@
+title: Site
+
+sections: 
+  files: 
+    type: files
+    layout: cards
+    image: 
+      ratio: 16/9
+      cover: true
