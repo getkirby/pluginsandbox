@@ -1,0 +1,6 @@
+title: Site
+
+sections: 
+  info: 
+    type: info
+    text: "Go to the (link: / text: home page) to see the Blade plugin in action."

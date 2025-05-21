@@ -2,6 +2,9 @@
 
 $root = dirname(__DIR__);
 
+// `e()` needs to be disabled for the Blade plugin
+define('KIRBY_HELPER_E', false);
+
 require $root . '/kirby/bootstrap.php';
 
 session_start();

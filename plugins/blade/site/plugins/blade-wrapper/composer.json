@@ -1,0 +1,13 @@
+{
+    "require": {
+        "leitsch/kirby-blade": "^3.0"
+    },
+    "provide": {
+        "getkirby/cms": "*"
+    },    
+    "config": {
+        "allow-plugins": {
+            "getkirby/composer-installer": false
+        }
+    }
+}
