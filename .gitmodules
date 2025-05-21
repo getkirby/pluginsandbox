@@ -52,3 +52,6 @@
 [submodule "plugins/remix-icons/site/plugins/remix-icons"]
 	path = plugins/remix-icons/site/plugins/remix-icons
 	url = https://github.com/veryrobert/kirby-remix-icons.git
+[submodule "plugins/visual-block-selector/site/plugins/visual-block-selector"]
+	path = plugins/visual-block-selector/site/plugins/visual-block-selector
+	url = git@github.com:junohamburg/kirby-visual-block-selector.git
