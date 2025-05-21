@@ -58,3 +58,6 @@
 [submodule "plugins/csv-field/site/plugins/csv-field"]
 	path = plugins/csv-field/site/plugins/csv-field
 	url = git@github.com:distantnative/kirby-csv-field.git
+[submodule "plugins/uniform/site/plugins/uniform"]
+	path = plugins/uniform/site/plugins/uniform
+	url = git@github.com:mzur/kirby-uniform.git
