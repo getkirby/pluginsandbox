@@ -1,0 +1,7 @@
+title: Site
+
+fields: 
+  textarea: 
+    type: textarea
+  writer: 
+    type: writer

@@ -61,3 +61,6 @@
 [submodule "plugins/uniform/site/plugins/uniform"]
 	path = plugins/uniform/site/plugins/uniform
 	url = git@github.com:mzur/kirby-uniform.git
+[submodule "plugins/hidden-characters/site/plugins/hidden-characters"]
+	path = plugins/hidden-characters/site/plugins/hidden-characters
+	url = git@github.com:grommasdietz/kirby-hidden-characters.git
