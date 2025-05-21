@@ -1,6 +1,11 @@
 title: Site
 
 sections: 
+  vendors: 
+    type: info
+    theme: notice
+    text: Make sure to run `composer update` in the blade-wrapper plugin folder to install the Blade plugin.
+    
   info: 
     type: info
     text: "Go to the (link: / text: home page) to see the Blade plugin in action."
