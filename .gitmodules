@@ -6,34 +6,34 @@
 	url = git@github.com:getkirby/kirby.git
 [submodule "plugins/retour/site/plugins/retour"]
 	path = plugins/retour/site/plugins/retour
-	url = https://github.com/distantnative/retour-for-kirby.git
+	url =  git@github.com:distantnative/retour-for-kirby.git
 [submodule "plugins/locator/site/plugins/locator"]
 	path = plugins/locator/site/plugins/locator
-	url = https://github.com/sylvainjule/kirby-locator.git
+	url =  git@github.com:sylvainjule/kirby-locator.git
 [submodule "plugins/seo/site/plugins/seo"]
 	path = plugins/seo/site/plugins/seo
-	url = https://github.com/tobimori/kirby-seo.git
+	url =  git@github.com:tobimori/kirby-seo.git
 [submodule "plugins/modules/site/plugins/modules"]
 	path = plugins/modules/site/plugins/modules
-	url = https://github.com/medienbaecker/kirby-modules.git
+	url =  git@github.com:medienbaecker/kirby-modules.git
 [submodule "plugins/navigation/site/plugins/navigation"]
 	path = plugins/navigation/site/plugins/navigation
-	url = https://github.com/chrisbeluga/kirby-navigation.git
+	url =  git@github.com:chrisbeluga/kirby-navigation.git
 [submodule "plugins/minimap/site/plugins/minimap"]
 	path = plugins/minimap/site/plugins/minimap
-	url = https://github.com/johannschopplich/kirby-minimap.git
+	url =  git@github.com:johannschopplich/kirby-minimap.git
 [submodule "plugins/language-selector/site/plugins/language-selector"]
 	path = plugins/language-selector/site/plugins/language-selector
-	url = https://github.com/junohamburg/kirby-language-selector.git
+	url =  git@github.com:junohamburg/kirby-language-selector.git
 [submodule "plugins/komments/site/plugins/komments"]
 	path = plugins/komments/site/plugins/komments
-	url = https://github.com/mauricerenck/komments.git
+	url =  git@github.com:mauricerenck/komments.git
 [submodule "plugins/embed/site/plugins/embed"]
 	path = plugins/embed/site/plugins/embed
-	url = https://github.com/sylvainjule/kirby-embed.git
+	url =  git@github.com:sylvainjule/kirby-embed.git
 [submodule "plugins/arborescence/site/plugins/arborescence"]
 	path = plugins/arborescence/site/plugins/arborescence
-	url = https://github.com/Daandelange/kirby-arborescence.git
+	url =  git@github.com:Daandelange/kirby-arborescence.git
 [submodule "plugins/kirbyuse/site/plugins/kirbyuse"]
 	path = plugins/kirbyuse/site/plugins/kirbyuse
 	url = git@github.com:johannschopplich/kirbyuse.git
@@ -51,7 +51,7 @@
 	url = git@github.com:floriankarsten/kirby-plausible.git
 [submodule "plugins/remix-icons/site/plugins/remix-icons"]
 	path = plugins/remix-icons/site/plugins/remix-icons
-	url = https://github.com/veryrobert/kirby-remix-icons.git
+	url =  git@github.com:veryrobert/kirby-remix-icons.git
 [submodule "plugins/visual-block-selector/site/plugins/visual-block-selector"]
 	path = plugins/visual-block-selector/site/plugins/visual-block-selector
 	url = git@github.com:junohamburg/kirby-visual-block-selector.git
