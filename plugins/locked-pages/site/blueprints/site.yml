@@ -1,0 +1,6 @@
+title: Site
+
+sections: 
+  pages: 
+    type: pages
+    template: lockable

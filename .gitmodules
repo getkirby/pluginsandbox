@@ -64,3 +64,6 @@
 [submodule "plugins/hidden-characters/site/plugins/hidden-characters"]
 	path = plugins/hidden-characters/site/plugins/hidden-characters
 	url = git@github.com:grommasdietz/kirby-hidden-characters.git
+[submodule "plugins/locked-pages/site/plugins/locked-pages"]
+	path = plugins/locked-pages/site/plugins/locked-pages
+	url = git@github.com:johannschopplich/kirby-locked-pages.git

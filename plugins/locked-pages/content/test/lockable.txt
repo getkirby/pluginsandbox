@@ -1,0 +1,13 @@
+Title: Test Page
+
+----
+
+Lockedpagesenable: true
+
+----
+
+Lockedpagespassword: supersecret
+
+----
+
+Uuid: bln3lsldkaiooiz2
