@@ -1,0 +1,19 @@
+title: Image Radio
+
+fields:
+  imageradio:
+    label: Pick a theme
+    type: imageradio
+    ratio: 3/2
+    columns: 3
+    width: 1/2
+    options:
+      light:
+        text: Light theme
+        image: light.png
+      dark:
+        text: Dark theme
+        image: dark.png
+      blue:
+        text: Blue theme
+        image: blue.png
