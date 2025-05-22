@@ -1,0 +1,1 @@
+<?php kirbylog('Something happened');

@@ -1,0 +1,5 @@
+title: Site
+sections: 
+    info: 
+        type: info
+        text: "Visit the (link: / text: home page) to create a log entry. Check log files in site/logs"

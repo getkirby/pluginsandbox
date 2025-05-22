@@ -73,3 +73,6 @@
 [submodule "plugins/imageradio/site/plugins/imageradio"]
 	path = plugins/imageradio/site/plugins/imageradio
 	url = git@github.com:sylvainjule/kirby-imageradio.git
+[submodule "plugins/kirbylog/site/plugins/kirbylog"]
+	path = plugins/kirbylog/site/plugins/kirbylog
+	url = git@github.com:johannschopplich/kirbylog.git
