@@ -1,0 +1,9 @@
+title: Geo
+
+sections:
+  distance:
+    type: info
+    text: "The distance between Mannheim and Hamburg is: {{ site.distance }}"
+  niceDistance:
+    type: info
+    text: "The distance between Mannheim and Hamburg is: {{ site.niceDistance }}"

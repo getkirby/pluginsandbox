@@ -76,3 +76,6 @@
 [submodule "plugins/kirbylog/site/plugins/kirbylog"]
 	path = plugins/kirbylog/site/plugins/kirbylog
 	url = git@github.com:johannschopplich/kirbylog.git
+[submodule "plugins/geo/site/plugins/geo"]
+	path = plugins/geo/site/plugins/geo
+	url = git@github.com:getkirby/geo.git
