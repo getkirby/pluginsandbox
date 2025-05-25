@@ -12,6 +12,7 @@ session_start();
 $plugin     = $_SESSION['plugin'] ?? 'git-content';
 $pluginRoot = $root . '/plugins/' . $plugin;
 
+$pluginAccountsRoot = $pluginRoot . '/site/accounts';
 $pluginTemplateRoot = $pluginRoot . '/site/templates';
 
 $kirby = new Kirby([
@@ -31,19 +32,19 @@ $kirby = new Kirby([
 			]
 		],
 		'panel' => [
-			'dev' => true, 
+			'dev' => true,
 		]
 	],
 	'roots' => [
 		'index'    => __DIR__,
 
-		'accounts'  => $root . '/accounts',
+		'accounts'  => is_dir($pluginAccountsRoot) ? $pluginAccountsRoot : $root . '/accounts',
 		'cache'     => $root . '/cache',
 		'content'   => $pluginRoot . '/content',
 		'sessions'  => $root . '/sessions',
 		'site'      => $pluginRoot . '/site',
 		'templates' => is_dir($pluginTemplateRoot) ? $pluginTemplateRoot : $root . '/templates',
-	], 
+	],
 	'routes' => [
 		[
 			'pattern' => 'plugin/(:any)',
@@ -62,7 +63,7 @@ $kirby = new Kirby([
 			],
 			'dialogs' => [
 				[
-					'pattern' => 'plugins', 
+					'pattern' => 'plugins',
 					'load'    => function () use ($plugin, $root)	{
 
 						$plugins = Dir::dirs($root . '/plugins');
@@ -81,7 +82,7 @@ $kirby = new Kirby([
 										'required' => true,
 										'options'  => A::map($plugins, function ($plugin) {
 											return [
-												'value' => $plugin, 
+												'value' => $plugin,
 												'text'  => $plugin
 											];
 										})
@@ -98,7 +99,7 @@ $kirby = new Kirby([
 						return [
 							'redirect' => url('/plugin/' . get('plugin'))
 						];
-					}	
+					}
 				],
 			]
 

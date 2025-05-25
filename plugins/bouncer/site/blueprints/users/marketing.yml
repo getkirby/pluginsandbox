@@ -1,0 +1,21 @@
+title: Marketing
+
+permissions:
+  access:
+    panel: true
+    site: true
+    settings: false
+    languages: false
+    users: false
+  # ...
+  user:
+    changeRole: false
+    delete: false
+    update: false # else a user will be able to edit the page they have access to on their profile
+
+fields:
+  canaccess:
+    label: "The user will only be able to access:"
+    type: pages
+    options: query
+    query: site.pages # or any query that suits your needs

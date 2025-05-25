@@ -85,3 +85,6 @@
 [submodule "plugins/footnotes/site/plugins/footnotes"]
 	path = plugins/footnotes/site/plugins/footnotes
 	url = git@github.com:sylvainjule/kirby-footnotes.git
+[submodule "plugins/bouncer/site/plugins/bouncer"]
+	path = plugins/bouncer/site/plugins/bouncer
+	url = git@github.com:sylvainjule/kirby-bouncer.git

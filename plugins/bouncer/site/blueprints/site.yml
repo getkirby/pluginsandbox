@@ -1,0 +1,9 @@
+Title: Bouncer
+
+sections:
+  info:
+    text: All roles but `marketing` should have access to all three pages. Marketing should not have access to the HR page.
+  bouncernav:
+    type: bouncernav
+  pages:
+    type: pages
