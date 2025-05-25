@@ -82,3 +82,6 @@
 [submodule "plugins/annotator/site/plugins/annotator"]
 	path = plugins/annotator/site/plugins/annotator
 	url = git@github.com:sylvainjule/kirby-annotator.git
+[submodule "plugins/footnotes/site/plugins/footnotes"]
+	path = plugins/footnotes/site/plugins/footnotes
+	url = git@github.com:sylvainjule/kirby-footnotes.git

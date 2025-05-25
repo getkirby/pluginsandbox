@@ -1,0 +1,7 @@
+Title: Footnotes
+
+fields:
+  info:
+    text: See the footnotes rendered in the frontend
+  text:
+    type: textarea
