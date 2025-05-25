@@ -1,0 +1,27 @@
+title: Annotator
+
+columns:
+  - width: 2/3
+    sections:
+      annotator:
+        type: annotator
+        storage:
+          src: src
+          markers: markers
+          color: color
+
+  - width: 1/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          src:
+            type: files
+            max: 1
+          color:
+            type: text
+          markers:
+            type: structure
+            fields:
+              foo:
+                type: text

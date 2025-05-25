@@ -79,3 +79,6 @@
 [submodule "plugins/geo/site/plugins/geo"]
 	path = plugins/geo/site/plugins/geo
 	url = git@github.com:getkirby/geo.git
+[submodule "plugins/annotator/site/plugins/annotator"]
+	path = plugins/annotator/site/plugins/annotator
+	url = git@github.com:sylvainjule/kirby-annotator.git
