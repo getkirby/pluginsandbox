@@ -91,3 +91,6 @@
 [submodule "plugins/staticache/site/plugins/staticache"]
 	path = plugins/staticache/site/plugins/staticache
 	url = git@github.com:getkirby/staticache.git
+[submodule "plugins/twig/site/plugins/twig"]
+	path = plugins/twig/site/plugins/twig
+	url = git@github.com:wearejust/kirby-twig.git

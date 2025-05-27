@@ -1,0 +1,11 @@
+Title: Home
+
+----
+
+Text: 
+
+Here is some nice Kirbytext (link: https://getkirby.com text: with a link)
+
+----
+
+Uuid: vz1hi5l9mrfu9nro

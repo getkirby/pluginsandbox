@@ -1,0 +1,8 @@
+title: Site
+
+sections: 
+  info: 
+    type: info
+    text: |
+      (link: / text: Go to the frontend) to test the templates.
+
