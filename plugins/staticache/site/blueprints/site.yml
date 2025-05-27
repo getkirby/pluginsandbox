@@ -1,0 +1,10 @@
+title: Site
+
+sections: 
+  info: 
+    type: info
+    text: |
+      (link: / text: Go to the frontend) to test caching. 
+
+      Laravel Herd does not support the redirect rules for the cache to fully function, but
+      there's a little test setup to check if cache files are created properly.

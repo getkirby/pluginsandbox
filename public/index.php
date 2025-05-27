@@ -39,7 +39,7 @@ $kirby = new Kirby([
 		'index'    => __DIR__,
 
 		'accounts'  => is_dir($pluginAccountsRoot) ? $pluginAccountsRoot : $root . '/accounts',
-		'cache'     => $root . '/cache',
+		'cache'     => $root . '/cache/' . $plugin,
 		'content'   => $pluginRoot . '/content',
 		'sessions'  => $root . '/sessions',
 		'site'      => $pluginRoot . '/site',

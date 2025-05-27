@@ -88,3 +88,6 @@
 [submodule "plugins/bouncer/site/plugins/bouncer"]
 	path = plugins/bouncer/site/plugins/bouncer
 	url = git@github.com:sylvainjule/kirby-bouncer.git
+[submodule "plugins/staticache/site/plugins/staticache"]
+	path = plugins/staticache/site/plugins/staticache
+	url = git@github.com:getkirby/staticache.git
