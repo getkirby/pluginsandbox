@@ -1,0 +1,5 @@
+title: Site
+
+fields:
+  editor:
+    type: code-editor
