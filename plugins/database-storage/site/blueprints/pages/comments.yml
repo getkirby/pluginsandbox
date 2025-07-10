@@ -1,0 +1,7 @@
+title: Comments
+
+sections:
+  comments:
+    type: pages
+    template: comment
+    info: "{{ page.num }}"

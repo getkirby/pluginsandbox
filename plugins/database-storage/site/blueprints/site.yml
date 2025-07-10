@@ -1,0 +1,8 @@
+title: Site
+
+sections:
+  examples:
+    label: Examples
+    type: pages
+    templates:
+      - comments

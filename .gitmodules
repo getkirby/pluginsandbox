@@ -97,3 +97,6 @@
 [submodule "plugins/code-editor/site/plugins/code-editor"]
 	path = plugins/code-editor/site/plugins/code-editor
 	url = git@github.com:sylvainjule/kirby-code-editor.git
+[submodule "plugins/database-storage/site/plugins/database-storage"]
+	path = plugins/database-storage/site/plugins/database-storage
+	url = git@github.com:getkirby/database-storage.git
