@@ -1,0 +1,6 @@
+title: Site
+
+fields:
+  textarea:
+    type: textarea
+    help: Open the page in a new tab, make changes and save to see the changes.

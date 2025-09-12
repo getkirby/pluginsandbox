@@ -100,3 +100,6 @@
 [submodule "plugins/database-storage/site/plugins/database-storage"]
 	path = plugins/database-storage/site/plugins/database-storage
 	url = git@github.com:getkirby/database-storage.git
+[submodule "plugins/reload-on-save/site/plugins/reload-on-save"]
+	path = plugins/reload-on-save/site/plugins/reload-on-save
+	url = git@github.com:junohamburg/kirby-reload-on-save.git
