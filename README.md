@@ -4,7 +4,7 @@ This is our test environment for third-party plugins. We isolate every plugin in
 
 ## Installation
 
-After cloning the repo, the submodules need to be initialized. 
+After cloning the repo, the submodules need to be initialized.
 
 ```
 git submodule update --init --recursive
@@ -13,7 +13,7 @@ git submodule update --init --recursive
 ## How to install a demo setup for a new plugin
 
 1. Add a new folder for the plugin to `/plugins`. It's suggested to use the plugin name as folder name.
-2. Add sample content and a site folder 
+2. Add sample content and a site folder
 3. Install the plugin as submodule if possible
 
 Example submodule installation
@@ -21,6 +21,14 @@ Example submodule installation
 ```
 git submodule add https://github.com/getkirby/kql.git plugins/kql/site/plugins/kql
 ```
+
+### Install via CLI command
+
+```
+kirby sandbox:create:plugin "Plugin name"
+```
+
+This will create the basic content and site folders. You still need to install the submodule afterwards.
 
 ## Panel login
 

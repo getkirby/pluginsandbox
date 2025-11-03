@@ -104,6 +104,9 @@ $kirby = new Kirby([
 			]
 
 		]
+	],
+	'commands' => [
+		'sandbox:create:plugin' => require $root . '/commands/create/plugin.php'
 	]
 ]);
 
