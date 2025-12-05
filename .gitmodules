@@ -103,3 +103,6 @@
 [submodule "plugins/reload-on-save/site/plugins/reload-on-save"]
 	path = plugins/reload-on-save/site/plugins/reload-on-save
 	url = git@github.com:junohamburg/kirby-reload-on-save.git
+[submodule "plugins/kirby-editor/site/plugins/kirby-editor"]
+	path = plugins/kirby-editor/site/plugins/kirby-editor
+	url = git@github.com:plain-solutions-gmbh/kirby-editor.git
