@@ -6,9 +6,10 @@
 *.sublime-workspace
 /.idea
 
-# public 
+# public
 /public/media
 
 # custom environments
+/accounts/.logins
 /sessions
 /cache
