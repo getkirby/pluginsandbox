@@ -9,7 +9,7 @@ require $root . '/kirby/bootstrap.php';
 
 session_start();
 
-$plugin     = $_SESSION['plugin'] ?? 'git-content';
+$plugin     = getenv('KIRBY_PLUGIN') ?: ($_SESSION['plugin'] ?? 'git-content');
 $pluginRoot = $root . '/plugins/' . $plugin;
 
 $pluginAccountsRoot = $pluginRoot . '/site/accounts';
