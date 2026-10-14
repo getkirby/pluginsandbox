@@ -1,5 +1,6 @@
 <?php
 
+use Kirby\Cms\App;
 use Kirby\Filesystem\Dir;
 use Kirby\Http\Response;
 
@@ -36,7 +37,22 @@ $kirby = new Kirby([
 			]
 		],
 		'panel' => [
-			'dev' => true,
+			'dev'  => true,
+			'menu' => function (App $kirby) {
+				$core = ['site', 'languages', 'plugins', 'users', 'system'];
+
+				return [
+					'site',
+					'languages',
+					'-',
+					'plugins',
+					// all areas registered by the loaded plugin
+					...array_diff($kirby->panel()->areas()->keys(), $core),
+					'-',
+					'users',
+					'system'
+				];
+			}
 		]
 	],
 	'roots' => [
