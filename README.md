@@ -39,3 +39,17 @@ Password: 12345678
 
 1. Go to the Panel
 2. Click on `Plugins` in the sidebar and choose the plugin you want to test
+
+## How to run CLI commands for a plugin test setup
+
+The Kirby CLI doesn't know which plugin you selected in the Panel. Set the `KIRBY_PLUGIN` environment variable to the plugin's folder name in `/plugins` and run the command from the root of the sandbox:
+
+```
+KIRBY_PLUGIN=retour kirby retour:seed
+```
+
+This loads the plugin's test setup, so the commands registered by the plugin and the ones in `plugins/<name>/site/commands` become available. Run `kirby` without a command to list them:
+
+```
+KIRBY_PLUGIN=retour kirby
+```
