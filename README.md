@@ -39,4 +39,3 @@ Password: 12345678
 
 1. Go to the Panel
 2. Click on `Plugins` in the sidebar and choose the plugin you want to test
-3. Due to a Panel issue, you need to reload afterwards to load all plugin components

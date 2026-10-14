@@ -1,11 +1,15 @@
 <?php
 
+use Kirby\Filesystem\Dir;
+use Kirby\Http\Response;
+
 $root = dirname(__DIR__);
 
 // `e()` needs to be disabled for the Blade plugin
 define('KIRBY_HELPER_E', false);
 
 require $root . '/kirby/bootstrap.php';
+require $root . '/dialogs/PluginsDialogController.php';
 
 session_start();
 
@@ -48,61 +52,30 @@ $kirby = new Kirby([
 	'routes' => [
 		[
 			'pattern' => 'plugin/(:any)',
-			'action' => function ($plugin) {
+			'action'  => function (string $plugin) {
 				$_SESSION['plugin'] = $plugin;
-				return go('/panel/site/');
+
+				// A non-JSON response enforces a real reload
+				if (kirby()->panel()->isStateRequest() === true) {
+					return new Response('', 'text/html');
+				}
+
+				go(kirby()->panel()->url('site'));
 			}
 		]
 	],
 	'areas' => [
 		'plugins' => [
-			'label' => 'Plugins',
-			'icon' => 'lab',
-			'menu' => [
-				'dialog' => 'plugins'
-			],
+			'label'   => 'Plugins',
+			'icon'    => 'lab',
+			'menu'    => true,
+			'dialog'  => 'plugins',
 			'dialogs' => [
-				[
-					'pattern' => 'plugins',
-					'load'    => function () use ($plugin, $root)	{
-
-						$plugins = Dir::dirs($root . '/plugins');
-
-						return [
-							'component' => 'k-form-dialog',
-							'props' => [
-								'fields' => [
-									'info' => [
-										'type' => 'info',
-										'text' => 'You might need to reload the panel after switching plugins. There’s an issue with cache invalidation and new plugin components are not loaded properly without a forced reload'
-									],
-									'plugin' => [
-										'type'     => 'select',
-										'label'    => 'Plugin',
-										'required' => true,
-										'options'  => A::map($plugins, function ($plugin) {
-											return [
-												'value' => $plugin,
-												'text'  => $plugin
-											];
-										})
-									]
-								],
-								'submitButton' => 'Change',
-								'value' => [
-									'plugin' => $plugin
-								]
-							]
-						];
-					},
-					'submit' => function () {
-						return [
-							'redirect' => url('/plugin/' . get('plugin'))
-						];
-					}
-				],
+				'plugins' => fn() => new PluginsDialogController(
+					plugins: Dir::dirs($root . '/plugins'),
+					current: $plugin
+				)
 			]
-
 		]
 	],
 	'commands' => [
