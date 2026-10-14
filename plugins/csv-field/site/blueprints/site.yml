@@ -1,6 +1,27 @@
 title: Site
 
-fields:
-  csv:
-    type: csv
-    delimiter: ";"
+columns:
+  - width: 1/2
+    fields:
+      csv:
+        type: csv
+        delimiter: ";"
+
+  - width: 1/2
+    fields:
+      paginated:
+        label: Paginated
+        type: csv
+        delimiter: ";"
+        limit: 2
+
+      columns:
+        label: Custom columns
+        type: csv
+        delimiter: ";"
+        columns:
+          Username:
+            label: User
+          a:
+            key: Last name
+            label: Name
