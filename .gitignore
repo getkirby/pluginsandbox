@@ -15,4 +15,5 @@
 /cache
 
 # licenses
+/.license
 **/site/config/.license

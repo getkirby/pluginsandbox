@@ -61,6 +61,8 @@ $kirby = new Kirby([
 		'accounts'  => is_dir($pluginAccountsRoot) ? $pluginAccountsRoot : $root . '/accounts',
 		'cache'     => $root . '/cache/' . $plugin,
 		'content'   => $pluginRoot . '/content',
+		// shared by all plugin setups, as they run on the same domain
+		'license'   => $root . '/.license',
 		'sessions'  => $root . '/sessions',
 		'site'      => $pluginRoot . '/site',
 		'templates' => is_dir($pluginTemplateRoot) ? $pluginTemplateRoot : $root . '/templates',
@@ -98,5 +100,14 @@ $kirby = new Kirby([
 		'sandbox:create:plugin' => require $root . '/commands/create/plugin.php'
 	]
 ]);
+
+// self-sign a free local dev license if there is no valid one yet
+if (
+	$kirby->environment()->cli() === false &&
+	$kirby->system()->isLocal() === true &&
+	$kirby->system()->license()->isMissing() === true
+) {
+	$kirby->system()->register('FREE');
+}
 
 echo $kirby->render();
